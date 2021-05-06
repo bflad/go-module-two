@@ -18,4 +18,4 @@ jobs:
 # Any permission that is absent from the list will be set to none.
 permissions:
   packages: read
-  pull_request: write
+  pull_requests: write
