@@ -1,6 +1,9 @@
 name: dependabot-auto-merge
 
-on: [pull_request_target]
+on:
+  pull_request_target:
+    branches:
+      - 'dependabot/**'
 
 permissions:
   packages: read
