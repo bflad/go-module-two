@@ -1,0 +1,3 @@
+- match:
+  dependency_name: github.com/bflad/go-module-one
+  update_type: semver:minor
